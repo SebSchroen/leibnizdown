@@ -12,8 +12,10 @@ To install the thesis as a standalone R package, use
 install.packages(rmarkdown)
 
 ```
-# install.packages("devtools")
+install.packages("devtools")
+
 devtools::install_github("SebSchroen/leibnizdown")
+
 ```
 
 To start a new draft, use RStudio and click File -> New Document -> RMarkdown and select "From Template" where you find this template. This procedure will create a new directory with all required files to compile the thesis.
