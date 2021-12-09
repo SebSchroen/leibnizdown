@@ -8,8 +8,6 @@ The template explains how to handle those adjustments.
 
 To install the thesis as a standalone R package, use
 
-```
-install.packages(rmarkdown)
 
 ```
 install.packages("devtools")
