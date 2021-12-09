@@ -4,7 +4,23 @@ This is a simplified thesis template in compliance with the formal guidelines of
 The template was inspired by the [thesisdown package](https://github.com/ismayc/thesisdown), but is simplified in many dimensions. 
 The template explains how to handle those adjustments.
 
+## Installation
+
+To install the thesis as a standalone R package, use
+
+```
+install.packages(rmarkdown)
+
+```
+# install.packages("devtools")
+devtools::install_github("SebSchroen/leibnizdown")
+```
+
+To start a new draft, use RStudio and click File -> New Document -> RMarkdown and select "From Template" where you find this template. This procedure will create a new directory with all required files to compile the thesis.
+
 ## Prerequisites
+
+
 
 ### RStudio/ RMarkdown
 
